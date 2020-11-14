@@ -1,2 +1,2 @@
-# azasto
+# azastro
 AzAstro 
