@@ -1,0 +1,22 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+video{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	object-fit: cover;
+	transition: all 1.2s linear;
+	z-index: -10;
+}
+.video1{
+	opacity: 1;
+}
+.video2{
+	opacity: 0;
+
+}
+.video3{
+	opacity: 0;
+}
