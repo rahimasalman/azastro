@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+video{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	object-fit: cover;
+	transition: all 1.2s linear;
+	z-index: -10;
+}
+
+.video{
+	opacity: 0.5;
+}
+
+.video2{
+	opacity: 0.5;
+
+}
+.video3{
+	opacity: 0.5;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	background-color: : 
+}
+
+.text {
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	font-size: 16px;
+	color:white;
+	letter-spacing: 1px;
+	width: 100%;
+
+}
+
+h1{
+	margin-bottom: 15px;
+
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightgray;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.1;
+}
+
