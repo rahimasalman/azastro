@@ -26,15 +26,20 @@
 	<link rel="Shortcut Icon" type="image/ico" href="static/images/favicon.ico">
 	<meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=1">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://baykardefence.com/assets/css/main.css?v=1.98">
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-t6I8D5dJmMXjCsRLhSzCltuhNZg6P10kE0m0nAncLUjH6GeYLhRU1zfLoW3QNQDF" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+	    integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="news_files/main.css?v=1.98">
+	<link rel="stylesheet" href="./news_files/bootstrap.min.css">
+	<link rel="stylesheet" href="./news_files/main.css">
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+	    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-t6I8D5dJmMXjCsRLhSzCltuhNZg6P10kE0m0nAncLUjH6GeYLhRU1zfLoW3QNQDF" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="static/deps-min.js"></script>
 	<script type="text/javascript" async src="static/player-min.js"></script>
 
 </head>
-<body id="hom" style="font-family: D-DIN-Bold,Arial,Verdana,sans-serif;">
+<body id="home" style="font-family: D-DIN-Bold,Arial,Verdana,sans-serif;">
 
 	
 	<div id="wrappe" >
@@ -54,8 +59,8 @@
 			width: 100%;
 			height: 100%;
 			max-width: 1400px;
-			
-			text-align: left; "> </a>
+			float:center;
+			text-align: center; "> </a>
 	</a>
 
 	<div id="navigation" style=" padding-top: 20px; !important">
@@ -282,7 +287,8 @@ height: 645px !important; font: D-DIN-Bold,Arial,Verdana,sans-serif" >
 			
 
 			<div class="section" data-title="Starship">
-				<div class="background" style="background-position: right center" data-preload data-desktop="static/images/azastrobg7.jpg" data-mobile="static/images/azastrobg7.jpg"></div>
+				<div class="background" style="background-position: right center" data-preload data-desktop="static/images/azastrobg7.jpg" 
+				data-mobile="static/images/azastrobg7.jpg"></div>
 				<div class="section-inner resize">
 					<div class="inner-left-top">
 						<h2 class="animate" style="color:black;">Carees</h2>
@@ -296,35 +302,499 @@ height: 645px !important; font: D-DIN-Bold,Arial,Verdana,sans-serif" >
 			</div>
 
 
+	<style>
+		.aboutWrap table{
+			width: 100%;
+			border: 1px solid #33487c;
+			margin-bottom: 25px;
+		}
+		.aboutWrap table tr{
+		}
+		.aboutWrap table tr:first-child td,
+		.aboutWrap table tr:first-child td p{
+			white-space: nowrap;
+		}
+		.aboutWrap table tr td{
+			border-bottom: 1px solid #33487c;
+			border-right: 1px solid #33487c;
+			padding: 10px;
+			text-align: center;
+		}
+		.aboutWrap table tr td:last-child{
+			border-right: none;
+		}
+		.aboutWrap table tr td p{
+			margin-bottom: 0 !important;
+		}
+		.aboutWrap ul{
+			padding-left: 20px;
+		}
+		.aboutWrap ul li{
+			color: #94a6cf;
+		    font-size: 15px;
+		    line-height: 26px;
+		    list-style: disc;
+		    margin-bottom: 10px;
+		}
+		
+		.aboutTimeLineLR .tlCard .tlContent span.tlDate{ width: 100%; display: block; }
+		.planeBannerWrap{ overflow: hidden; }
+		.newsPageWrap .newDetailContent div> img{ }
+		.newsPageWrap .newDetailContent p> img{ max-width: 100%!important; height: auto !important;}
+		
+		.carrierWrap .carrierHr .hrImg{margin-right: 0;}
+		
+		
+		@media (max-width: 1200px){
+			.allPlanes:before{ width:100%; }
+		}
+		
+		@media (max-width: 991px){
+			.slidesWrap:before{ transform: scale(1) !important;}
+			.slidesWrap .slideWrap .slImg img{ margin-top: 150px; }
 			
+			.galleryWrap.resShape:before{ width: 100%;}
+			.aboutWrap .managmentDetail table{ width: 100% !important;}
+		}
+		
+		@media (max-width: 768px){
+			/*html,body{ overflow: hidden; }*/
+			footer:after{ width : 100%; }
+			.noticeWrap:before{ width: 100%;}
 			
-			<div id="footer">
-				<p>
-					<span>AzAstro © 2020. &copy; All Rights Reserved. </span>
-					<a href="https://www.linkedin.com/company/azastroo/" rel="noopener" target="_blank" class="social">Linkedin  </a>
-					<a href="https://twitter.com/Azastro2" rel="noopener" target="_blank" class="social">Twitter  </a>
-					<a href="https://www.youtube.com/azastro" rel="noopener" target="_blank" class="social">YouTube  </a>
-					<a href="https://www.facebook.com/azastroo/" rel="noopener" target="_blank" class="social">Facebook  </a>
-					<a href="media/termofuse.pdf" target="_blank" class="social">Term of Use</a>
-				    <a href="media/privacynotice.pdf" target="_blank" class="social">Privacy Notice</a>
+			.aboutWrap .aboutText img{ width: 100%!important; height:auto !important; }
+			
+			.planeDetail .sText span.t2{    width: 80px !important;
+    line-height: 76px !important;
+    font-size: 68px !important;}
+			.newDetailContent:before{ width: 100% !important;}
+			
+			.newDetailContent h4>img{ max-width: 100% !important; height: auto !important; }
+		}
+		
+		
+		@media (max-width: 574px){
+			.slidesWrap .slideWrap .slImg img{ margin-left: -50px; margin-top: 50px; width: 120%; }
+			.newDetailContent p>img{ max-width: 100% !important; height: auto !important; }
+		}
+	</style>
+<script type="text/javascript" async="" src="./news_files/analytics.js.download"></script><script type="text/javascript"
+ async="" src="./news_files/analytics.js(1).download"></script><script charset="utf-8" 
+ src="./news_files/moment_timeline_tweet.ae149926685a43cb146e35371430188e.js.download"></script>
+ <script charset="utf-8" src="./news_files/timeline.687eed636a16648c9f0b1f72d7fa68bd.js.download"></script></head>
+<body data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="">
+
+
+	
 
 
 
-	<div id="modal" class="modal" aria-modal>
-  	<div class="modal-transform">
-  		<div class="modal-bg"></div>
-			<div class="modal-inner">
-			 	<div class="youtube-wrapper"></div>
-				<span></span>
+		<style>
+		@media (max-width: 991px) {
+			.headerTop{
+				padding: 5px 0;
+				position: absolute;
+				right: 0;
+				top: 0;
+				z-index: 9;
+			}
+			.headerNav{
+				margin-top: 15px;
+			}
+		}
+	</style>
+     
+					
+	 <div class="section" data-title="Starship">
+
+		<div >
+			<div class="container">
+				<div class="titleArea">
+					<h2 style="color:#000 !important;
+					text-align : left !important;">News</h2>
+				</div>
+
+				<div class="row">
+					<div class="col-md-8">
+						<div class="newsCards">
+							<div class="row">
+							
+                                                        
+                            	<div class="col-md-6">
+									<div class="nCard">
+										<div class="nImg">
+											<a href="#">
+												<img src="./news_files/202011615103331015.jpg" alt="National camera marked, national UAV hit with national MAM-L" 
+												style="height: 180px;"></a>
+										</div>
+										<div class="nContent">
+											<span class="nCategory">
+												<a href="#"  style="color:#000; hover: #000000; " >News</a> <br>
+											</span>
+											<span class="nTitle">
+												<a href="#"
+												style="color:#000; hover: #000000; ">
+												National camera marked, national UAV hit with national MAM-L</a> <br>
+											</span>
+											<span class="nDesc">
+											Turkey has taken another important step towards national scientific and technological development. Bayraktar TB2 (Armed Unmanned Aerial Vehicle), developed by Baykar, successfully performed its first test fire shot using the electro-optical system of reconnaissance, surveillance and guidance CATS, developed by Aselsan.											</span>
+                                      <br>      <span class="nDesc" style="    color: #fff;
+    font-size: 11px;
+    padding-top: 10px;">
+6 November 2020 - 15:10													</span> <br> <br>
+										</div>
+									</div>
+								</div>
+                                                            
+                            	<div class="col-md-6">
+									<div class="nCard">
+										<div class="nImg">
+											<a href="#">
+												<img src="./news_files/2020092210153326510.jpg" alt="Drone maker Baykar, others start tablet campaign for remote education in Turkey" style="height: 180px;"></a>
+										</div>
+										<div class="nContent">
+											<span class="nCategory">
+												<a href="#"  style="color:#000; hover: #000000; ">News</a> <br>
+											</span>
+											<span class="nTitle">
+												<a href="#"
+												style="color:#000; hover: #000000; ">
+												Drone maker Baykar, others start tablet campaign for remote education in Turkey</a> <br>
+											</span>
+											<span class="nDesc" >
+											Turkey’s leading drone producer, Baykar, has announced it will donate 5,000 tablet computers to help meet students' remote education needs in the time of the coronavirus pandemic.											</span>
+                                          <br>  <span class="nDesc" style="    color: #fff;
+    font-size: 11px;
+    padding-top: 10px;">
+22 September 2020 - 10:15													</span> <br> <br>
+										</div>
+									</div>
+								</div>
+                                                            
+                            	<div class="col-md-6">
+									<div class="nCard">
+										<div class="nImg">
+											<a href="#"><img src="./news_files/2020091611440325911.jpg" alt="Turkey successfully tests its 1st flying car" 
+												style="height: 180px; "></a>
+										</div>
+										<div class="nContent">
+											<span class="nCategory">
+												<a href="https://baykardefence.com/haberler.html " style="color:#000; hover: #000000; ">News</a> <br>
+											</span>
+											<span class="nTitle">
+												<a href="#"
+												style="color:#000; hover: #000000; ">
+													Turkey successfully tests its 1st flying car</a> <br>
+											</span>
+											<span class="nDesc">
+											After smart cars, the revolution in automotive technology will be flying cars, Baykar chief
+											 technology officer Selçuk Bayraktar noted as Turkey is preparing for tomorrow’s competition rather than today's. 					
+																	</span>
+                                          <br>  <span class="nDesc" style="    color: #fff;
+    font-size: 11px;
+    padding-top: 10px;">
+16 September 2020 - 11:44													</span> <br> <br>
+										</div>
+									</div>
+								</div>
+                                                            
+                            	<div class="col-md-6">
+									<div class="nCard">
+										<div class="nImg">
+											<a href="#">
+												<img src="./news_files/2020082610184623810.jpg" alt="Ukraine awards state medal to Turkish firm&#39;s 
+												CEO" style="height: 180px;"></a>
+										</div>
+										<div class="nContent">
+											<span class="nCategory">
+												<a href="#"  style="color:#000; hover: #000000; ">News</a> <br>
+											</span>
+											<span class="nTitle">
+												<a href="#"
+												  style="color:#000; hover: #000000; ">
+													Ukraine awards state medal to Turkish firm's CEO</a> <br>
+											</span>
+											<span class="nDesc">
+											President Volodymyr Zelenskiy honors Haluk Bayraktar for his services to Ukraine, Ukraine-Turkey relations			
+																		</span>
+                                         <br>   <span class="nDesc" style="    color: #fff;
+    font-size: 11px;
+    padding-top: 10px;">
+26 August 2020 - 10:18													</span> <br> <br>
+										</div>
+									</div>
+								</div>
+                                                                
+                            
+								<!--/.col-md-6-->
+							</div>
+							<!--/.row-->
+						</div>
+						<!--/.newsCards-->
+					</div>
+					<!--/.col-md-8-->
+					<div class="col-md-4">
+						<div class="newsLinkedin">
+							<div class="tTitle">
+								<i id="in" class="fa fa-linkedin"  aria-hidden="true"></i>				
+												<a class="tAccount" href="https://www.linkedin.com/company/azastroo/" target="_blank" >
+													
+									<span class="accountName" >AzAstro</span>
+									<br>
+									<span class="accountUsername">@AzAstro</span>
+								</a>
+							</div>
+							<div class="tTweets">
+								<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6741329781637353472"  height="591" width="504"
+								 frameborder="0" allowfullscreen="true" title="Embedded post" 
+								 style="position: static; visibility: visible; display: inline-block; width: 414px; background-color: #4964a3 !important;
+								 height: 600px; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;" ></iframe>
+
+	 
+
+<style>
+
+.twitter-timeline{
+  background-color: #132143;
+}
+</style>
+                            
+                            
+								<!--/.tweetCard-->
+							</div>
+						</div>
+						<!--/.newsTwitter-->
+					</div>
+					<!--/.col-md-4-->
+				</div>
+				<!--/.row-->
+
+
 			</div>
-			<a href="#" class="modal-close">
-				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
-					<line class="line1" fill="none" x1="13" y1="13" x2="33" y2="33" stroke-linecap="square"/>
-					<line class="line2" fill="none" x1="13" y1="33" x2="33" y2="13" stroke-linecap="square"/>
-				</svg>
-			</a>
-  	</div>
+			<!--/.container-->
+		</div>
+		<!--/.newsWrap-->
+
+</div>
+
+		
+
+</div>
+		</div>
+
+
+
+
+
+
+<!--LONG PHOTOS-->
+
+<div class="longphotos" style="margin:2rem;">
+	<div class="widgetWrap noticeWrap">
+<div class="container">
+
+	<div class="owl-carousel owlNotice js-owlNotice owl-loaded">
+						
+						
+						
+						
+						
+<div class="owl-stage-outer owl-height" style="height: 40px;"><div class="owl-stage"
+style="transform: translate3d(-9360px, 0px, 0px); transition: all 0.25s ease 0s; width: 2691px;  ">
+
+	   <div class="owl-item active" style="width: 1170px; height: 303.88px !important; margin-bottom:20px;"><div class="item">
+			<span class="nTitle" style="font-size:24px;">AzAstro Designed Photos </span> <br> <br> <br> 
+			<a href="#" target="_blank"><img src="./news_files/long3.jpg" alt=""></a>
+		</div></div>
+			 <div class="owl-item" style="width: 1170px; height: 303.88px !important;"><div class="item">
+			 <span class="nTitle" style="font-size:24px;" >AzAstro Designed Photos</span> <br> <br>  <br> 
+
+			<a href="#" target="_blank"><img src="./news_files/long1.jpg" alt=""></a>
+		</div></div>
+			
+		<div class="owl-item" style="width: 1170px; height: 303.88px !important;"><div class="item">
+			<span class="nTitle" style="font-size:24px;"  >AzAstro Designed Photos</span> <br>  <br>  <br> 
+			<a href="#" target="_blank"><img src="./news_files/long2.jpg" alt=""></a>
+		</div></div>
+		
+	</div>	
 	</div>
+</div>
+</div>
+</div>
+<!--/.container-->
+</div>
+<!--/.widgetWrap-->
+</div>
+
+<!--END OF LONG PHOTOS-->
+
+
+
+
+<br> <br>
+
+<div>
+
+<div id="footer">
+	<p>
+		<span>AzAstro © 2020. &copy; All Rights Reserved. </span>
+				<a href="https://www.linkedin.com/company/azastroo/" rel="noopener" target="_blank" class="social">Linkedin  </a>
+				<a href="https://twitter.com/Azastro2" rel="noopener" target="_blank" class="social">Twitter  </a>
+				<a href="https://www.youtube.com/azastro" rel="noopener" target="_blank" class="social">YouTube  </a>
+				<a href="https://www.facebook.com/azastroo/" rel="noopener" target="_blank" class="social">Facebook  </a>
+				<a href="media/termofuse.pdf" target="_blank" class="social">Term of Use</a>
+				<a href="media/privacynotice.pdf" target="_blank" class="social">Privacy Notice</a>
+	</p>
+</div>
+	
+</div>
+
+
+<style>
+ 
+.modal-header {
+ 
+    background-color: #1e73be;
+ 
+    padding:16px 16px;
+ 
+    color:#FFF;
+ 
+    border-bottom:2px dashed #337AB7;
+ 
+ }
+ .img-modal{
+  width:100%;
+  height:100%;
+}
+
+
+// 
+.modal-open .modal{
+    overflow: hidden;
+}
+
+
+.modalVideo .modal-dialog {
+    max-width: 100%;
+    margin: 5px auto;
+}
+.modalVideo .modal-content{
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+.modalVideo .modal-body {
+    position:relative;
+    padding:0px;
+}
+.modalVideo .close {
+
+background:url("./assets/img/icons/png/close.png") no-repeat;
+    background-size:24px 24px;
+    -webkit-background-size:24px 24px;
+    -moz-background-size:24px 24px;
+    -o-background-size:24px 24px;
+    background-position: center center;
+
+    position:absolute;
+    right: 25px;
+    bottom: 40px;
+    z-index:999;
+    font-size: 2rem;
+    font-weight: normal;
+    color:#fff;
+    opacity:1;
+
+
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    border: none;
+    background-color: #ffffff;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 22;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .modalVideo .modal-dialog {
+        max-width: 100%;
+        margin: 15px auto;
+    }
+}
+.modal-backdrop.show {
+
+    opacity: .8;
+
+}
+.modal-open.modal{
+    overflow: hidden;
+}
+</style>
+
+
+	
+
+	
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./news_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165262368-1');
+</script>
+
+
+	
+	<script src="./news_files/jquery-3.4.1.min.js.download"></script>
+	<script src="./news_files/bootstrap.bundle.min.js.download"></script>
+
+	<!-- kullanilan sayfalar: select option olan sayfalar -->
+	<link href="./news_files/select2.min.css" rel="stylesheet">
+	<script src="./news_files/select2.min.js.download"></script>
+
+	<!-- kullanilan sayfalar: index, haberler, haber-detay -->
+	<script src="./news_files/owl.carousel.min.js.download"></script>
+
+	<!-- kullanilan sayfalar: index -->
+	<script src="./news_files/jquery.event.move.js.download"></script>
+	<script src="./news_files/jquery.twentytwenty.js.download"></script>
+
+	<!-- kullanilan sayfalar: hk-sosyal-sorumluluk-v2 -->
+	<link href="./news_files/lightbox.min.css" rel="stylesheet">
+	<script src="./news_files/lightbox.min.js.download"></script>
+
+	<!-- kullanilan sayfalar: haber-detay-videolu -->
+	<script src="./news_files/YouTubePopUp.jquery.js.download"></script>
+
+	<!-- kullanilan sayfalar: kariyer-acik-pozisyonlar-v2 -->
+	<script type="text/javascript" src="./news_files/jquery.filterizr.min.js.download"></script>
+
+	<!--tum ayarlar-->
+	<script src="./news_files/settings.js.download"></script>    
+       <style>
+   .btn-popup{
+background-color: #1e73be;
+color: #FFFFFF;
+display: block;
+}
+</style>
+                
+
+
+
+
+			
+			
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -338,6 +808,12 @@ height: 645px !important; font: D-DIN-Bold,Arial,Verdana,sans-serif" >
 		ga('send', 'pageview')
 	
 	</script>
+
+
+	
+	
+	
+	
 
 	
 </body>
