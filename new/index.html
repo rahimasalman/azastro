@@ -63,7 +63,7 @@
 			text-align: center; "> </a>
 	</a>
 
-	<div id="navigation" style=" padding-top: 20px; !important">
+	<div id="navigation" style=" padding-top: 20px !important;">
 		<ul class="nav-links"  > 
 		  <li class="nav-item"><a href="/#/" style=" text-align: right;" >About us</a></li>
 		  <li class="nav-item"><a href="/#/" style=" text-align: right;" >What We Do?</a></li>
@@ -152,7 +152,7 @@ height: 645px !important; font: D-DIN-Bold,Arial,Verdana,sans-serif" >
 	height: 645px;" >
 	  <!-- First slide -->
 	  <div class="carousel-item active">
-		<!--Mask color-->
+		<!--color-->
 		<div class="view" id="video1">
 		  <!--Video source-->
 		  <video class="video-fluid" autoplay loop muted >
@@ -173,7 +173,7 @@ height: 645px !important; font: D-DIN-Bold,Arial,Verdana,sans-serif" >
   
 	  <!-- Second slide -->
 	  <div class="carousel-item">
-		<!--Mask color-->
+		<!--color-->
 		<div class="view">
 		  <!--Video source-->
 		  <video class="video-fluid" autoplay loop muted>
@@ -232,7 +232,7 @@ height: 645px !important; font: D-DIN-Bold,Arial,Verdana,sans-serif" >
 			  <div class="carousel-inner">
 					<div class="carousel-item active">
 					  <img src="static/images/azastrobg1.jpg" alt="...">
-					  <div class="carousel-caption d-none d-md-block">
+					  <div class="carousel-caption d-none d-md-block" style="display: block!important;"> 
 					    <h3 style="color:#000000; "> <b> About Us</b> </h3>
 						  <p style="color:#000000; "><b>Aviation and Aerospace</b></p>
 								<a class="btn animate" tabindex="0" href="#" data-video="#" data-title="#">
@@ -244,7 +244,7 @@ height: 645px !important; font: D-DIN-Bold,Arial,Verdana,sans-serif" >
 					</div>
 					<div class="carousel-item">
 					  <img src="static/images/bg10.jpg" alt="...">
-					  <div class="carousel-caption d-none d-md-block">
+					  <div class="carousel-caption d-none d-md-block" style="display: block!important;">
 						<h3>  What We Do? </h3>
 						<p>Aerial Vehicle Systems</p>
 							  <a class="btn animate" tabindex="0" href="#" data-video="#" data-title="#">
@@ -255,7 +255,7 @@ height: 645px !important; font: D-DIN-Bold,Arial,Verdana,sans-serif" >
 					</div>
 					<div class="carousel-item">
 					  <img src="static/images/azastrobg2.jpg" alt="...">
-					  <div class="carousel-caption d-none d-md-block">
+					  <div class="carousel-caption d-none d-md-block" style="display: block!important;">
 						<h3>  Our Future </h3>
 						<p>The Aviation sector in Azerbaijan</p>
 							  <a class="btn animate" tabindex="0" href="#" data-video="#" data-title="#">
@@ -303,6 +303,37 @@ height: 645px !important; font: D-DIN-Bold,Arial,Verdana,sans-serif" >
 
 
 	<style>
+
+
+.carousel-caption{padding-bottom:160px!important;} .carousel-caption {position: absolute; right: 15%;bottom: 20px;left: 15%;z-index: 10; padding-top: 20px;padding-bottom: 161px !important;color: #fff;text-align: center;}
+
+.h3-responsive {
+    margin-bottom: 34rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 961px){
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    text-align: center;}}
+
+@media screen and (max-width: 961px){
+.h3-responsive {
+	margin-bottom: 47rem;
+}}
+
+@media screen and (max-width: 961px){
+	.carousel-caption > a {
+    margin-bottom: 5rem;
+}}
+
 		.aboutWrap table{
 			width: 100%;
 			border: 1px solid #33487c;
@@ -670,7 +701,7 @@ style="transform: translate3d(-9360px, 0px, 0px); transition: all 0.25s ease 0s;
 }
 
 
-// 
+
 .modal-open .modal{
     overflow: hidden;
 }
